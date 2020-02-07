@@ -23,7 +23,7 @@ end
 
 def input_to_index
   user_input = gets.strip
-  index = index.to_i-1
+  user_input = index.to_i-1
 end
 
 # describe '#input_to_index' do
