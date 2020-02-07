@@ -14,7 +14,7 @@ display_board(board)
 puts "Where would you like to go"
 
 
-input == gets.strip
+var input == gets.strip
 
 input_to_index(input) == index
 
