@@ -15,7 +15,7 @@ puts "Where would you like to go"
 
 
 
-index = input_to_index(input)
+input_to_index(index)
 
 move(board, index, 'X')
 
