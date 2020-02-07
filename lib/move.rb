@@ -9,7 +9,7 @@ end
 # code your input_to_index and move method here!
 
 
-def move(board,index,token = "X")
+def move(board,user_input,token = "X")
   board[index] = token
 end
 
@@ -21,7 +21,8 @@ def get_move
 end
 
 def input_to_index(user_input)
-  user_input.to_i - 1
+  user_input = gets.strip
+  user_input.to_i - 1 = user_input
 end
 
 # describe '#input_to_index' do
