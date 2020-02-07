@@ -22,7 +22,7 @@ def get_move
 end
 
 def input_to_index(user_input)
-  user_input.to_i = gets.strip
+  gets.strip = user_input.to_i
   
 end
 
