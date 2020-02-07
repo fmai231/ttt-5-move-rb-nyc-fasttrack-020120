@@ -21,9 +21,9 @@ def get_move
   
 end
 
-def input_to_index(user_input)
-  user_input = gets.strip
-  user_input = user_input.to_i-1
+def input_to_index
+  index = gets.strip
+  index = index.to_i-1
 end
 
 # describe '#input_to_index' do
