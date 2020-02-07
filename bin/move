@@ -13,6 +13,4 @@ puts "Where would you like to go"
 
 display_board(board)
 
-move(board, index, "X")
-
 
