@@ -22,10 +22,20 @@ def get_move
 end
 
 def input_to_index
-  input = gets.strip
-  input = input.to_i-1
+  user_input = gets.strip
+  user_input = user_input.to_i-1
   
 end
+
+# describe '#input_to_index' do
+
+#   it 'converts a user_input to an integer' do
+#     user_input = "1"
+#     converted_input = input_to_index(user_input)
+    
+#     expect(converted_input).to be_a(Integer)
+#   end
+
 
   
   
