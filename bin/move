@@ -3,3 +3,19 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
+## board = Array.new(9, " ")  ### is another way to create an array with 9 elements of " "
+
+puts "Welcome to Tic Tac Toe!"
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+puts "Where would you like to go"
+
+input_to_index = gets.strip.to_i
+
+index = input_to_index
+
+
+move(board, index, "X")
+
+

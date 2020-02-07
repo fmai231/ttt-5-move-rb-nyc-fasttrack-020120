@@ -7,3 +7,24 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+
+
+def move(board,index,token = "X")
+  board[index] = token
+end
+
+
+
+def get_move
+  input = gets.strip
+  input = input.to_i-1
+  
+end
+
+def input_to_index(input)
+  input = input.to_i-1
+  
+end
+
+  
+  
