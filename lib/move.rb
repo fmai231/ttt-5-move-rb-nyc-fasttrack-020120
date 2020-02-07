@@ -21,7 +21,7 @@ def get_move
 end
 
 def input_to_index(user_input)
-  index = user_input.to_i - 1
+  user_input.to_i - 1
 end
 
 # describe '#input_to_index' do
