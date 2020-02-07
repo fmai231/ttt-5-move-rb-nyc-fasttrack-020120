@@ -7,3 +7,33 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+
+
+def move(board,index,token = "X")
+  board[index] = token
+end
+
+
+
+def get_move
+  user_input = gets.strip
+  
+end
+
+def input_to_index(user_input)
+  user_input.to_i - 1
+end
+
+
+# describe '#input_to_index' do
+
+#   it 'converts a user_input to an integer' do
+#     user_input = "1"
+#     converted_input = input_to_index(user_input)
+    
+#     expect(converted_input).to be_a(Integer)
+#   end
+
+
+  
+  
